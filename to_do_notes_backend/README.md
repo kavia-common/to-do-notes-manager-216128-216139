@@ -3,8 +3,8 @@
 A simple REST API for managing to-do notes with CRUD operations.
 
 - Port: 3001
-- Swagger UI: /swagger-ui.html (or /docs)
-- OpenAPI JSON: /openapi.json
+- Swagger UI: /swagger-ui.html (or /docs). Also available under /swagger-ui/index.html
+- OpenAPI JSON: /openapi.json (springdoc api docs; alternative default is /v3/api-docs)
 - Health: /health
 - H2 Console: /h2-console (dev/local profile)
 

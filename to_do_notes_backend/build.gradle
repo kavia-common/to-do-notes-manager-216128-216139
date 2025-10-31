@@ -43,6 +43,11 @@ tasks.withType(Checkstyle) {
 	}
 }
 
+springBoot {
+	// Explicitly specify the fully-qualified main application class for bootRun and packaging
+	mainClass = 'com.example.todonotesbackend.TodoNotesBackendApplication'
+}
+
 tasks.named('test') {
 	useJUnitPlatform()
 }

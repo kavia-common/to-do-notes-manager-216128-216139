@@ -1,0 +1,4 @@
+{
+    "command": "./gradlew dependencies",
+    "working_directory": "/home/kavia/workspace/code-generation/to-do-notes-manager-216128-216139/to_do_notes_backend"
+}
